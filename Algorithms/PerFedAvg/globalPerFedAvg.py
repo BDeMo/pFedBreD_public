@@ -1,0 +1,24 @@
+from federatedFrameW.base.fglobalbase import gbase
+
+
+class gPerFedAvg(gbase):
+    '''
+    global Class for PerFedAvg
+
+    kwargs:
+        - id: id of the global
+        - model: calculation model deepcopy
+        - hyperparame:
+            - beta: global momentum
+            - num_aggregate_locals: number of local models to aggregate
+    '''
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def sample_locals(self):
+        self.sampled_locals = self.select_locals_uniform(num_aggregate_locals=self.num_aggregate_locals)
+
+    def gen_personalized_model(self):
+        for c in self.candidate_locals:
+            c.gen_personalized_model()
