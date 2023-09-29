@@ -149,7 +149,7 @@ if __name__ == "__main__":
                         , choices=["NLLLoss", "CrossEntropyLoss", "BCEWithLogitsLoss", "BCELoss"])
     parser.add_argument("--optimizer_name", type=str, default="SGD"
                         , choices=["SGD", "Adam", "Adagrad", "pFedMeOptimizer"])
-    parser.add_argument("--name", type=str, default="pFedBreD_ns_meg"
+    parser.add_argument("--name", type=str, default="pFedBreD_ns_mh"
                         , choices=["pFedMe", "pFedMe_ft", "PerFedAvg", "PerFedAvg_ft", "FedAvg", "FedAMP", "FedAMP_ft", "pFedBayes", "FedEM", "FedEM_ft", "pFedBreD_ns_fm", "pFedBreD_ns_fmd",
                                    "pFedBreD_ns_lg", "pFedBreD_ns_mh", "pFedBreD_ns_meg", "pFedBreD_kl_fo", "FedHN", "FedPAC", "Fedfomo", "Ditto"])
     parser.add_argument("--batch_size", type=int, default=20

@@ -5,11 +5,14 @@ The code of pFedBreD accepted by NeurIPS 2023. We provide 3 implementations of p
 
 # Preprint
 
-Preprint will soon be released.
+Preprint will be released soon.
 
 # Tutorial
 
-The tutorial scripts will soon be released.
+1. Run data/*/generate_... first, if you have no data yet.
+2. Then try the default hyperparameter setting on what ever --totalepoch you want by running main_fl.
+
+More scripts will be released soon.
 
 
 PS: if there's any wired characters (e.g., fo/mfo/mg) are respectively the old name and unrelated (or additional) methods(e.g., of lg/meg/mh).
