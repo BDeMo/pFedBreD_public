@@ -5,12 +5,12 @@ and 3 baselines in the main Table of comparative experiments.
 
 ## Abstract
 
-Classical federated learning (FL) enables training machine learning models without sharing data for privacy
+Classical federated learning (FL) enables training machine learning models without sharing data for privacy
 preservation, but heterogeneous data characteristic degrades the performance of the localized model. Personalized FL (
 PFL) addresses this by synthesizing personalized models from a global model via training on local data. Such a global
 model may overlook the specific information that the clients have been sampled. In this paper, we propose a novel scheme
 to inject personalized prior knowledge into the global model in each client, which attempts to mitigate the introduced
-incomplete information problem in PFL. At the heart of our proposed approach is a framework, the PFL with Bregman
+incomplete information problem in PFL. At the heart of our proposed approach is a framework, the PFL with Bregman
 Divergence (pFedBreD), decoupling the personalized prior from the local objective function regularized by Bregman
 divergence for greater adaptability in personalized scenarios. We also relax the mirror descent (RMD) to extract the
 prior explicitly to provide optional strategies...
@@ -27,7 +27,7 @@ prior explicitly to provide optional strategies...
 
 Poster:
 
-![Poster](https://pic2.zhimg.com/v2-501463aa4d958506f46d1c9a10091045_r.jpg)
+![image](https://pic2.zhimg.com/v2-501463aa4d958506f46d1c9a10091045_r.jpg)
 
 [Zhihu](https://zhuanlan.zhihu.com/p/661506638/edit)
 
