@@ -37,7 +37,7 @@ Poster:
 
 To install requirements:
 
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 1. Run data/*/generate_... first, if you have no data yet.
 2. Then try the default hyperparameter setting on what ever --totalepoch you want by running main_fl.
