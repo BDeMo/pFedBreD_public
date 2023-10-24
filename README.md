@@ -21,13 +21,13 @@ prior explicitly to provide optional strategies...
 
 [Openreview]()(Not available now)
 
-# Others About Paper
+![image](https://pic1.zhimg.com/80/v2-9b97060db9eb6db321312074d6a81ad4_720w.webp)
 
-![image](https://picx.zhimg.com/80/v2-56cba09b9bc470401420ac9f352015ee_720w.png?source=d16d100b)
+# Others About Paper
 
 Poster:
 
-![Poster](https://picx.zhimg.com/80/v2-0badc2cafe325ac67d2c533b789fcbad_720w.png?source=d16d100b)
+![Poster](https://pic2.zhimg.com/v2-501463aa4d958506f46d1c9a10091045_r.jpg)
 
 [Zhihu](https://zhuanlan.zhihu.com/p/661506638/edit)
 
